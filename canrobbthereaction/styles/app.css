@@ -1,0 +1,255 @@
+:root{
+  --color: #ffffff;
+  --background-color: #279bdf;
+  --border-color:  #e9e934 ;
+  --hover-color: #3705ad;
+  --Emphasis-color: #240772de;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+/* Start of Navigation Flexbox */
+header {
+  font-size: 48px;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  background-color: #3705ad;
+}
+/* Name Color */
+h1 {
+  color: var(--color);
+
+}
+/* Heading info */
+h2 {
+  color: var(--Emphasis-color);
+  justify-self: flex-start;
+  font-size: 35px;
+  Padding: 5pt;
+}
+
+footer {
+  background-color: #3705ad;
+}
+
+/* Navigation bar flex-box info */
+ul {
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: var(--border-color);
+  font-size: 20px;
+  padding: 20px 20px 0px 0px;
+  margin: auto;
+}
+
+a:hover {
+  color: var(--color);
+
+}
+/* Serenity picture */
+img {
+  justify-content: flex-end;
+  text-align:center;
+  list-style: none;
+  color: var(--border-color)
+}
+
+footer {
+  padding-bottom: 30px;
+}
+
+/* Parent to the serenity picture */
+.container {
+  position: relative;
+  text-align: center;
+  color: var(--color)
+}
+
+/* Parent to the first project "Learning" */
+.Learn-box {
+  display:flex;
+  justify-content: center;
+  position: relative;
+}
+
+.in-picture {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 30px;
+  color: var(--color)
+}
+
+/* container-4 is the parent container for the 4 flex boxes */
+.container-4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 20pt;
+  margin-left: 10pt;
+}
+
+.Box {
+  justify-content: space-around;
+  border: 3pt solid #3705ad;
+  margin: 30pt auto;
+  width: 300pt;
+  height: 300pt;
+  position: relative;
+}
+
+
+
+.Have-Not-Decided {
+  background: url(../Assets/jane-almon-7rriIaBH6JY-unsplash.jpg);
+  background-size: cover;
+}
+
+.Wait-for-it {
+  background: url(../Assets/alexandra-khudyntseva-IrIa0u6Nz38-unsplash.jpg);
+  background-size: cover;
+}
+
+.Bam {
+  background: url(../Assets/ray-hennessy-gdTxVSAE5sk-unsplash.jpg);
+  background-size: cover;
+}
+
+/* In picture headings */
+.All-Captions {
+  position:absolute;
+  align-items: flex-start;
+  top: 33px;
+  left: 47px;
+  font-size: 30px;
+  color: var(--hover-color);
+}
+
+.All-Captions-Coming-soon {
+  position:absolute;
+  align-items: flex-end;
+  bottom: 33px;
+  left: 47px;
+  font-size: 30px;
+  color: var(--color);
+}
+
+.Proj-2 {
+  color: var(--color);
+  text-align: center;
+  justify-content: center;
+  top: 40px;
+  font-size: 40px;
+}
+
+/*About Me parent section  */
+.About-Me-Row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  height: 250pt;
+}
+
+#Personal-picture { 
+  border-radius: 3pt solid var(--hover-color);
+  display:block;
+  flex-direction: row;
+  justify-content: center;
+  height: 250pt;
+  width: 200pt;
+  padding: 5pt;
+}
+
+#About-Me-text {
+  display: flex;
+  padding: 10pt;
+  width: 33%;
+  height: 200pt;
+  align-items: center;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  
+}
+
+#About-Me-text-cont {
+  display: flex;
+  padding: 10pt;
+  width: 33%;
+  height: 200pt;
+  align-items: center;
+  margin-right: 20px;
+  flex-wrap: wrap;
+}
+
+/* Serenity lake picture size */
+.Container-background-image {
+  height: 200pt;
+  width: 100%;
+  border-top: var(--background-color) solid 8pt;
+  border-bottom: var(--hover-color) solid 8pt;
+}
+
+#Learning {
+  height: 80%;
+  width: 100%;
+  border: 3pt solid var(--hover-color);
+}
+
+#Coming-soon-pic {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+}
+
+/* Changed the text color for firework picture so you can see it on the dark background. */
+#Bam-Caption {
+  color: var(--color);
+}
+
+/* Changed footer color to change it up.  Therefore, had to change the h2 color. */
+#Contact-Me{
+  color: #ffffff;
+}
+
+/* Different screen aspect */
+@media screen and (max-width: 800px) {
+  header,
+  main {
+    flex-direction: column;
+  }
+
+  section {
+      padding-right: 0;
+    } 
+
+  .container-4 {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 2%;
+  }   
+  
+  .About-Me-Row {
+      display:flex;
+      flex-direction: column;
+      height:100%;
+      width: 200%;
+  }
+
+}
