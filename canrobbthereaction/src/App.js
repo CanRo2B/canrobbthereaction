@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Nav from './Components/Nav';
+import Footer from './Components/Footer';
+import './styles/app.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Candace Robbins</h1>
+        <Nav />
       </header>
+      <section>
+            <div class="container"> 
+                <img className="Container-background-image" src="./Assets/emma-harper-j3CjZYckM88-unsplash.jpg" title="Serenity on a lake" alt="Serenity on a lake" />
+                <h2 class="in-picture">Be Strong; Be Courageous</h2>
+            </div>
+        </section>
+        <div>
+          <Footer />
+        </div>
     </div>
+  
   );
 }
 
