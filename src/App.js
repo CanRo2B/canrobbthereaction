@@ -47,6 +47,9 @@ function App() {
               />
         </Routes>
         <div>
+          <Aboutme />
+        </div>
+        <div>
           <Footer />
         </div>
     </div>
