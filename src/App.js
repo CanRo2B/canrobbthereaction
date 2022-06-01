@@ -17,6 +17,7 @@ function App() {
     {/* Wrap page elements in Router component to keep track of location state */}
     <Router>
     <div className="App">
+     
       <header>
         <h1>Candace Robbins</h1>
         <Nav />
@@ -30,7 +31,7 @@ function App() {
         <Routes>
           <Route
             path="/" 
-            element={<App />} 
+            element={<Aboutme />} 
             />
           <Route 
                 path="/projects" 

@@ -20,7 +20,7 @@ body {
 header {
   font-size: 48px;
   display: flex;
-  padding: 15px;
+  padding: 10px;
   justify-content: space-between;
   background-color: #3705ad;
 }

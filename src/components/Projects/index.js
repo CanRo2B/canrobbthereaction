@@ -1,6 +1,7 @@
 import React from 'react';
-
-
+import Assets1 from '../../assets/digital-marketing-meeting.jpg';
+import Assets2 from '../../assets/screencapture-canro2b-github-io-gitGud-2022-04-15-09_42_02-edit.png';
+import Assets3 from '../../assets/SNACK_Movers.png'
 
 export default function Projects() {
     // const projectInfo = [
@@ -23,7 +24,7 @@ export default function Projects() {
             <h2 id="Work">Projects</h2>
                 <figure className="Learn-box">
                     <a href="https://fast-tundra-37022.herokuapp.com/">
-                    <img id="Learning" src="./assets/images/SNACK_Movers.png" title="SNACK_Movers Project 2" alt="snack mover project" />
+                    <img id="Learning" src={Assets3} title="SNACK_Movers Project 2" alt="snack mover project 2" />
                     </a>
                     <div className="All-Captions Proj-2" >Project 2: S.N.A.C.K. Movers <br /> Created by:<br />
                     <a href="https://github.com/SarahAmel">Sarah Attar,</a>
@@ -37,7 +38,7 @@ export default function Projects() {
         <section className="container-4">
             <article className="Box Coming-Soon" title="gitGud">
                 <a href="https://canro2b.github.io/gitGud/">
-                <img id="Coming-soon-pic" src="./assets/images/screencapture-canro2b-github-io-gitGud-2022-04-15-09_42_02-edit.png" title="Project 1 gitGud" alt= "git gud project"/>
+                <img id="Coming-soon-pic" src={Assets2} title="Project 1 gitGud" alt= "git gud project"/>
                 </a>
                 <h4 class="All-Captions-Coming-soon">Created by Pet Beans, Inc; 
                     <br />
@@ -48,7 +49,7 @@ export default function Projects() {
             </article>
             <article className="Box Have-Not-Decided" title="Horiseon Collaborative Project Homework Project 01 Code_Refractor">
                 <a href="https://canro2b.github.io/Code_Refractor/">
-                    <img id="Coming-soon-pic" src="./assets/images/digital-marketing-meeting.jpg" title="Horiseon Collaborative Project Homework Project 01 Code_Refractor" alt="code refractor" />
+                    <img id="Coming-soon-pic" src={Assets1} title="Horiseon Collaborative Project Homework Project 01 Code_Refractor" alt="code refractor" />
                     </a>
                 <h4 className="All-Captions">Learning, <br />1st Challenge Code_Refractor</h4>
             </article>
