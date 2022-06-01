@@ -8,8 +8,8 @@ const Footer = () => {
       <div className="container text-center mb-3">
       <div className="container">
         <section>
-        <h2 id="Contact-Me">Contact Me</h2>
-        <nav>
+        {/* <h2 id="Contact-Me">Contact Me</h2> */}
+        <nav className= "mt-5">
             <ul>
                 <li><a href="mailto:canrob0522@gmail.com">Email</a></li>
                 <li><a href="https://github.com/CanRo2B">GitHub</a></li>

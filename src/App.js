@@ -46,9 +46,9 @@ function App() {
                 element={<Contact />} 
               />
         </Routes>
-        <div>
+        {/* <div>
           <Aboutme />
-        </div>
+        </div> */}
         <div>
           <Footer />
         </div>

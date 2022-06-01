@@ -3,10 +3,11 @@ import React from 'react';
 
 export default function Contact() {
     return (
-      <div className="container">
-        <section>
-        <h2 id="Contact-Me">Contact Me</h2>
+      <div className="container row">
+        <div className="center">
+  
         <form>
+        <h2 id="Contact-Me">Contact Me</h2>
           <label htmlFor="name">Name:</label>
           <input 
               name="name" type="text" className="contactForm" placeholder="Please insert your name" id="name" />
@@ -21,7 +22,7 @@ export default function Contact() {
           <br />
           <button onClick="" className="btn btn-primary" type="submit">Submit</button>
         </form>
-        </section>
+        </div>
       </div>
       );
       }

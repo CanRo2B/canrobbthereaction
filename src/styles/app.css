@@ -69,15 +69,48 @@ img {
   color: var(--border-color)
 }
 
+
 footer {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 /* Parent to the serenity picture */
 .container {
   position: relative;
   text-align: center;
+  justify-content: center;
   color: var(--color)
+}
+
+form {
+  background: rgb(108, 109, 127);
+  margin-top: 5pt;
+  padding: 2em;
+  border-radius: 1em;
+  width: 400pt;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+#name, #email {
+  display: flex;
+  width: 250pt;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#message {
+  display: flex;
+  width: 300pt;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 /* Parent to the first project "Learning" */
@@ -165,6 +198,17 @@ footer {
   justify-content: center;
   justify-content: space-around;
   height: 250pt;
+}
+
+.contactForm{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+#message {
+  height: 100pt;
 }
 
 #Personal-picture { 
