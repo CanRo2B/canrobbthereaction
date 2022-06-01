@@ -2,13 +2,13 @@ import React from 'react';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Nav from './Components/Nav';
+import Nav from './components/Nav';
 import './styles/app.css';
-import Assets from './Assets/emma-harper-j3CjZYckM88-unsplash.jpg'
-import Aboutme from './Components/Aboutme';
+import Assets from './assets/emma-harper-j3CjZYckM88-unsplash.jpg'
+import Aboutme from './components/Aboutme';
 import Contact from './Contact';
 import Projects from './Projects';
-import Footer from './Components/Footer';
+import Footer from './components/Footer';
 
 
 function App() {
