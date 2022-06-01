@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
   return (
     <header className="bg-primary text-light mb-2 p-3 flex-row align-center">
-      <div className="container flex-row justify-space-between-lg">
+      <div className="container flex-row justify-space-between-md">
       <Link className="" to="/Aboutme">
             <h3>About Me</h3>
         </Link>
