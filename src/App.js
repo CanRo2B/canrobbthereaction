@@ -1,19 +1,19 @@
 import React from 'react';
-import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+// import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Nav from './components/Nav';
 import './styles/app.css';
 import Assets from './assets/emma-harper-j3CjZYckM88-unsplash.jpg'
 import Aboutme from './components/Aboutme';
-import Contact from './Contact';
-import Projects from './Projects';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
 import Footer from './components/Footer';
 
 
 function App() {
   return (
-    <ApolloProvider client={client}>
+   <div>
     {/* Wrap page elements in Router component to keep track of location state */}
     <Router>
     <div className="App">
@@ -50,7 +50,7 @@ function App() {
         </div>
     </div>
     </Router>
-    </ApolloProvider>
+    </div>
   );
 }
 
