@@ -41,7 +41,8 @@ h2 {
 h3 {
   display: flex;
   display: inline-block;
-  color:#dfd28e;
+  /* color:#dfd28e; */
+  color:aliceblue;
   font-size: 25px;
   padding: 10pt;
 }
