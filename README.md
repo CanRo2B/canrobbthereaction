@@ -17,7 +17,7 @@ The portfolio I created used react-router to navigate between the pages.  The ma
 Feel free to open the github.io link.  This will open the main page which tells a little bit about me and my values.  You can use the navigation bar to route to various pages.  You can scroll down to the footer which will link to my personal pages.  
 
 ## Screenshot
-![Portfolio Screenshot](src/assets/canrobbthereaction.png)
+![Portfolio Screenshot](./src/assets/canrobbthereaction.png)
 
 ## Github Pages Link
 [React Link](https://canro2b.github.io/canrobbthereaction/)
