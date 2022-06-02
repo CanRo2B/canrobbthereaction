@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/canrobbthereaction/static/css/main.e1aeefe5.css",
+    "main.css": "/canrobbthereaction/static/css/main.d208d140.css",
     "main.js": "/canrobbthereaction/static/js/main.00bf9aae.js",
     "static/js/787.634b8b69.chunk.js": "/canrobbthereaction/static/js/787.634b8b69.chunk.js",
     "static/media/digital-marketing-meeting.jpg": "/canrobbthereaction/static/media/digital-marketing-meeting.c672fcf0b6bd0c33ff16.jpg",
@@ -12,12 +12,12 @@
     "static/media/emma-harper-j3CjZYckM88-unsplash.jpg": "/canrobbthereaction/static/media/emma-harper-j3CjZYckM88-unsplash.19759cd872ce2a4f5b31.jpg",
     "static/media/couplepicture.jpeg": "/canrobbthereaction/static/media/couplepicture.b1a6567d0b065b7437f3.jpeg",
     "index.html": "/canrobbthereaction/index.html",
-    "main.e1aeefe5.css.map": "/canrobbthereaction/static/css/main.e1aeefe5.css.map",
+    "main.d208d140.css.map": "/canrobbthereaction/static/css/main.d208d140.css.map",
     "main.00bf9aae.js.map": "/canrobbthereaction/static/js/main.00bf9aae.js.map",
     "787.634b8b69.chunk.js.map": "/canrobbthereaction/static/js/787.634b8b69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1aeefe5.css",
+    "static/css/main.d208d140.css",
     "static/js/main.00bf9aae.js"
   ]
 }
