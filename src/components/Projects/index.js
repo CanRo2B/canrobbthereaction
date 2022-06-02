@@ -59,6 +59,9 @@ export default function Projects() {
             <article className="Box Bam" title="Project not made yet, but please check back soon">
                 <h4 className="All-Captions" id="Bam-Caption">Have Not Decided</h4>
             </article>
+            <article className="Box Bam" title="Project not made yet, but please check back soon">
+                <h4 className="All-Captions" id="Bam-Caption">Have Not Decided</h4>
+            </article>
             
         </section>
       </div>
