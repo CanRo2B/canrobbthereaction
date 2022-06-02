@@ -8,7 +8,9 @@ import Assets from './assets/emma-harper-j3CjZYckM88-unsplash.jpg'
 import Aboutme from './components/Aboutme';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
+import Main from './components/Main';
 
 
 function App() {
@@ -30,8 +32,8 @@ function App() {
         </section>
         <Routes>
           <Route
-            path="/" 
-            element={<Aboutme />} 
+            path="/canrobbthereaction" 
+            element={<Main />} 
             />
           <Route 
                 path="/projects" 
@@ -40,6 +42,10 @@ function App() {
            <Route 
                 path="/aboutme" 
                 element={<Aboutme />} 
+              />
+              <Route 
+                path="/resume" 
+                element={<Resume />} 
               />
            <Route 
                 path="/contact" 

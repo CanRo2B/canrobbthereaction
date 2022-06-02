@@ -18,15 +18,16 @@ body {
 
 /* Start of Navigation Flexbox */
 header {
-  font-size: 48px;
   display: flex;
-  padding: 10px;
+  
   justify-content: space-between;
   background-color: #3705ad;
 }
 /* Name Color */
 h1 {
+  font-size: 45pt;
   color: var(--color);
+  padding: 15px;
 
 }
 /* Heading info */
@@ -34,9 +35,19 @@ h2 {
   color: var(--Emphasis-color);
   justify-self: flex-start;
   font-size: 35px;
-  Padding: 5pt;
+  padding: 5pt;
 }
 
+h3 {
+  display: flex;
+  display: inline-block;
+  color:#dfd28e;
+  font-size: 25px;
+  padding: 10pt;
+}
+h4{
+  font-size: 11pt;
+}
 footer {
   background-color: #3705ad;
 }
@@ -53,8 +64,8 @@ li {
 a {
   color: var(--border-color);
   font-size: 20px;
-  padding: 20px 20px 0px 0px;
-  margin: auto;
+  padding: 10px 10px 0px 0px;
+
 }
 
 a:hover {
@@ -112,7 +123,12 @@ form {
   justify-content: center;
   margin: auto;
 }
-
+.intro{
+  font-size: 30pt;
+}
+.intro2 {
+  font-size: 35pt;
+}
 /* Parent to the first project "Learning" */
 .Learn-box {
   display:flex;
