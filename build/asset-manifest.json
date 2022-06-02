@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/canrobbthereaction/static/css/main.c5abe1e0.css",
-    "main.js": "/canrobbthereaction/static/js/main.36388428.js",
-    "static/js/787.eb10a982.chunk.js": "/canrobbthereaction/static/js/787.eb10a982.chunk.js",
+    "main.css": "/canrobbthereaction/static/css/main.e1aeefe5.css",
+    "main.js": "/canrobbthereaction/static/js/main.00bf9aae.js",
+    "static/js/787.634b8b69.chunk.js": "/canrobbthereaction/static/js/787.634b8b69.chunk.js",
     "static/media/digital-marketing-meeting.jpg": "/canrobbthereaction/static/media/digital-marketing-meeting.c672fcf0b6bd0c33ff16.jpg",
     "static/media/screencapture-canro2b-github-io-gitGud-2022-04-15-09_42_02-edit.png": "/canrobbthereaction/static/media/screencapture-canro2b-github-io-gitGud-2022-04-15-09_42_02-edit.e6a0f169541e5e4b1100.png",
     "static/media/SNACK_Movers.png": "/canrobbthereaction/static/media/SNACK_Movers.c55458bc9f0d05c0897b.png",
@@ -12,12 +12,12 @@
     "static/media/emma-harper-j3CjZYckM88-unsplash.jpg": "/canrobbthereaction/static/media/emma-harper-j3CjZYckM88-unsplash.19759cd872ce2a4f5b31.jpg",
     "static/media/couplepicture.jpeg": "/canrobbthereaction/static/media/couplepicture.b1a6567d0b065b7437f3.jpeg",
     "index.html": "/canrobbthereaction/index.html",
-    "main.c5abe1e0.css.map": "/canrobbthereaction/static/css/main.c5abe1e0.css.map",
-    "main.36388428.js.map": "/canrobbthereaction/static/js/main.36388428.js.map",
-    "787.eb10a982.chunk.js.map": "/canrobbthereaction/static/js/787.eb10a982.chunk.js.map"
+    "main.e1aeefe5.css.map": "/canrobbthereaction/static/css/main.e1aeefe5.css.map",
+    "main.00bf9aae.js.map": "/canrobbthereaction/static/js/main.00bf9aae.js.map",
+    "787.634b8b69.chunk.js.map": "/canrobbthereaction/static/js/787.634b8b69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5abe1e0.css",
-    "static/js/main.36388428.js"
+    "static/css/main.e1aeefe5.css",
+    "static/js/main.00bf9aae.js"
   ]
 }
